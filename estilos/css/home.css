@@ -7,42 +7,56 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    
-    
 }
+
 .cont_primario{
 width: 25%;
 background-color: rgb(31, 34, 34);
-padding: 20px;
-
+/* padding: 20px; */
+display: flex;
+flex-direction: column;
 }
 
+.contenedor_img{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
 .nino_polla{
     border-radius: 60px;
     width: 130px;
-    
 }
 
-.sitios{
+.contenedor_enlaces{
+    height: 75%;
+    padding-left: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .cont_secundario{
-   width: 100%;
-   height: 100%;
-   align-items: center;
-   justify-content: center;
-
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center;
+   justify-content: center; */
+   /* background-color: aqua; */
 }
 
 .home_crud{
-    width: 900px;
-    height: 20%;
+    /* width: 100%; */
+    height: 10%;
     padding: 8px;
-    background-color: rgb(54, 51, 51);
+    background-color: rgb(117, 30, 30);
     
+}
+.vista_crud{
+    /* width: 100%; */
+    height: 90%;
+    /* background-color: aqua; */
 }
 .icono{
     width: 10%;
