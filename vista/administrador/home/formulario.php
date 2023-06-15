@@ -1,12 +1,6 @@
-<?php require_once "..../vista/administrador/home/estructura/parte_superior"?>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../estilos/css/registro.css">
-    <title>Usuarios Crud</title>
-</head>
+<?php require_once "estructura/parte_superior.php"?>
 
-<body>
+    <link rel="stylesheet" href="../../../estilos/css/registro.css">
 
     <div>
         <form action="">
@@ -59,6 +53,5 @@
         </thead>
 
     </div>
-</body>
-</html>
-<?php require_once "..../vista/administrador/home/estructura/parte_inferior"?>
+
+<?php require_once "estructura/parte_inferior.php"?>

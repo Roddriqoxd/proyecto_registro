@@ -16,7 +16,7 @@
 
         <div class="contenedor_img">
 
-            <img class="nino_polla" src="/estilos/img/El niño polla.jpeg">
+            <img class="nino_polla" src="../../../estilos/img/El niño polla.jpeg">
 
         </div>
 
