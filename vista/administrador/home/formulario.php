@@ -1,8 +1,8 @@
 <?php require_once "estructura/parte_superior.php"?>
 
-    <link rel="stylesheet" href="../../../estilos/css/registro.css">
+    <link rel="stylesheet" href="../../../estilos/css/formulario.css">
 
-    <div>
+    <div class="datos_usuario">
         <form action="">
             <h1>Registrar Usuario</h1>
 
@@ -16,7 +16,7 @@
         
     <div>
 
-    <div>
+    <div class="registro_usuario">
         <h2>Registrar Usuarios</h2>
 
         <table>
@@ -40,14 +40,16 @@
         <thead>
 
             <tbody>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <tr>
+                   <th></th>
+                   <th></th>
+                   <th></th>
+                   <th></th>
+                   <th></th>
 
-                <th><a href="">Editar</th>
-                <th><a href="">Eliminar</th>
+                   <th><a href="" class="registro_usuario--edit">Editar</th>
+                   <th><a href=""class="registro_usuario--delete">Eliminar</th>
+                </tr>
 
             </tbody>
         </thead>

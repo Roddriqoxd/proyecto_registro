@@ -46,7 +46,13 @@
         <div class="home_crud">
 
             <h1>Lista de registros</h1>
+
             <!-- <span class="icono">sdasdas</span> -->
+
+            <li class="buton_salir">
+                <i class="fas fa-house"></i>
+                <a href="">Salir</a>
+            </li>
 
         </div>
         

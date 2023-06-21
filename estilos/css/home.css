@@ -38,6 +38,14 @@ flex-direction: column;
     justify-content: space-evenly;
 }
 
+.buton_salir{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(220, 220, 233);
+}
+
 .cont_secundario{
    width: 75%;
    display: flex;
@@ -51,6 +59,8 @@ flex-direction: column;
     /* width: 100%; */
     height: 10%;
     padding: 8px;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(116, 112, 112);
     
 }
