@@ -5,13 +5,16 @@ $name=$_POST['nombre'];
 $lastName=$_POST['apellido'];
 
 
-echo $_POST['nombre'];
-echo $_POST['apellido'];
+// echo $_POST['nombre'];
+// echo $_POST['apellido'];
 
-$medidor= "INSERT INTO `medidor`( `codigo`, `deuda`, `ubicacion`, `precio`) VALUES ('$codigo','$deuda','$ubicacion','1')";
-$consulta1=mysqli_query($conexion, $medidor);
+$conexion = mysqli_connect( "localhost", "root" , "", "nombre_de_base_de_datos");
 
-header('Location: ../vista/mostrar.php');
+$consulta = "INSERT INTO `nombre_tabla`( `nombre`, ``, ``, ``) VALUES ('$name','','','')";
+
+$cualqera_name = mysqli_query($conexion,$consulta);
+
+// header('Location: ../ruta_para_mostrar_despues_de_enviar');
 
 
 
