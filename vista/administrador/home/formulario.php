@@ -3,13 +3,13 @@
     <link rel="stylesheet" href="../../../estilos/css/formulario.css">
 
     <div class="datos_usuario">
-        <form action="">
+        <form action="../../../modelo/formulario.php" method="POST">
             <h1>Registrar Usuario</h1>
 
             <input type="text" name="nombre" placeholder="Nombre">
-            <input type="text" name="nombre" placeholder="Apellido">
+            <input type="text" name="apellido" placeholder="Apellido">
             <input type="email" name="email" placeholder="Correo">
-            <input type="password" name="nombre" placeholder="Contraseña">
+            <input type="password" name="password" placeholder="Contraseña">
 
             <input type="submit" value="Agregar usuario">
         </form>
