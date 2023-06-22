@@ -23,11 +23,18 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
     /* background-color: aqua; */
 }
 .nino_polla{
     border-radius: 60px;
     width: 130px;
+}
+
+a{
+    color: aliceblue;
+    /* text-decoration: none; */
 }
 
 .contenedor_enlaces{
@@ -36,6 +43,8 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-size: 30px;
+    color: aliceblue;
 }
 
 .buton_salir{
@@ -69,7 +78,7 @@ flex-direction: column;
     height: 90%;
     /* background-color: aqua; */
 }
-.icono{
-    width: 10%;
-    background-color: rgb(172, 169, 40);
-}
+/* i{
+    color: aliceblue;
+    font-size: 40px;
+} */

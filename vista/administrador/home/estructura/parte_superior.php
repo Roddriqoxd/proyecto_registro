@@ -17,7 +17,7 @@
         <div class="contenedor_img">
 
             <img class="nino_polla" src="../../../estilos/img/El niño polla.jpeg">
-
+            <h3>Niño polla</h3>
         </div>
 
         <!-- contenedor de enlaces -->

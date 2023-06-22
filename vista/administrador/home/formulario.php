@@ -20,8 +20,8 @@
         <h2>Registrar Usuarios</h2>
 
         <table>
-            <thead>
 
+            <thead>
             <tr>
                 <th>ID</th>
                 <th>Nombre</th>
@@ -32,28 +32,29 @@
                 <th></th>
 
             </tr>
-
             </thead>
 
-        </table>
+        <!-- </table> -->
 
-        <thead>
+        <!-- <thead> -->
 
             <tbody>
-                <tr>
-                   <th></th>
-                   <th></th>
-                   <th></th>
-                   <th></th>
-                   <th></th>
 
-                   <th><a href="" class="registro_usuario--edit">Editar</th>
-                   <th><a href=""class="registro_usuario--delete">Eliminar</th>
+                <tr>
+                   <td>1</td>
+                   <td>Carlos</td>
+                   <td>Carlos</td>
+                   <td>Carlos</td>
+                   <td>Carlos</td>
+                   <td><a href="" class="registro_usuario--edit">Editar</td>
+                   <td><a href=""class="registro_usuario--delete">Eliminar</td>
                 </tr>
 
             </tbody>
-        </thead>
+            
+        <!-- </thead> -->
 
+        </table>
     </div>
 
 <?php require_once "estructura/parte_inferior.php"?>
